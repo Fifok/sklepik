@@ -17,7 +17,7 @@ app.use(function(req,res,next){
 });
 app.use(router);
 
-
+//TEST TRALALA
 const server = app.listen(8080,"localhost", ()=>{
     console.log("Server is running at: " + server.address().address + "::" + server.address().port);
 });
